@@ -1,3 +1,3 @@
-FROM tomcat:9.0.14
+FROM tomcat:10.1.x
 # Dummy text to test 
 COPY target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
